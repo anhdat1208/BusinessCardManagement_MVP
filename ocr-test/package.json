@@ -1,0 +1,14 @@
+{
+  "name": "businesscard-ocr-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Test Gemini OCR for business cards (seed for Discord/Slack bot)",
+  "scripts": {
+    "ocr": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.7"
+  }
+}

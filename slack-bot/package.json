@@ -1,0 +1,16 @@
+{
+  "name": "businesscard-slack-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Slack bot (Socket Mode): business card OCR via Gemini -> save to Google via GAS",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm --prefix ../shared test"
+  },
+  "dependencies": {
+    "@bcm/shared": "file:../shared",
+    "@slack/bolt": "4.7.3",
+    "dotenv": "^16.4.7"
+  }
+}

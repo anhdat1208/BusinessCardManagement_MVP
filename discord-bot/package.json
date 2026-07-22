@@ -1,0 +1,16 @@
+{
+  "name": "businesscard-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord bot: business card OCR via Gemini -> save to Google via GAS",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm --prefix ../shared test"
+  },
+  "dependencies": {
+    "@bcm/shared": "file:../shared",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
